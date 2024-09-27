@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="OperModel" representedClassName="OperModel" syncable="YES" codeGenerationType="class">
+        <attribute name="opDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="opGoal" optional="YES" attributeType="String"/>
+        <attribute name="opSum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="opTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="opType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PiggyModel" representedClassName="PiggyModel" syncable="YES" codeGenerationType="class">
+        <attribute name="gColor" optional="YES" attributeType="String"/>
+        <attribute name="gGoal" optional="YES" attributeType="String"/>
+        <attribute name="gIcon" optional="YES" attributeType="String"/>
+        <attribute name="gName" optional="YES" attributeType="String"/>
+        <attribute name="gNewBalance" optional="YES" attributeType="String"/>
+        <attribute name="gSBalance" optional="YES" attributeType="String"/>
+    </entity>
+</model>

@@ -8,14 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var viewModel = ProfileViewModel()
+    
+    @AppStorage("status") var status: Bool = false
+    
+    init() {
+        
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        ZStack {
+            
+            Color.black
+                .ignoresSafeArea()
+            
+            if status {
+                
+                if viewModel.isGoalReady {
+                    
+                    ProfileView()
+
+                } else {
+                    
+                    if viewModel.isProfileReady {
+                        
+                        CreateView()
+                        
+                    } else {
+                        
+                        AddProfile()
+                    }
+
+                }
+                
+                
+            } else {
+                
+                R1()
+            }
         }
-        .padding()
     }
 }
 
