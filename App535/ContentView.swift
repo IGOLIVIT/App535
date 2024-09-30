@@ -29,7 +29,7 @@ struct ContentView: View {
                 
                 if viewModel.isGoalReady {
                     
-                    ProfileView()
+                    GoalsView()
 
                 } else {
                     
