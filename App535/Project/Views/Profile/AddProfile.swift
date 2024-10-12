@@ -53,14 +53,14 @@ struct AddProfile: View {
                         Image(systemName: "camera")
                             .foregroundColor(.white)
                             .font(.system(size: 20, weight: .regular))
-                            .frame(width: 50, height: 50)
+                            .frame(width: 60, height: 60)
                             .background(Circle().fill(.black.opacity(0.8)))
                         
                     } else {
                         
                         Image(viewModel.currentPhoto)
                             .resizable()
-                            .frame(width: 50, height: 50)
+                            .frame(width: 60, height: 60)
                     }
                 })
                 

@@ -16,7 +16,7 @@ final class ProfileViewModel: ObservableObject {
     @Published var addName: String = ""
     @Published var currentPhoto: String = ""
 
-    @Published var Photos: [String] = ["Albert"]
+    @Published var Photos: [String] = ["Albert", "Av2", "Av3", "Av4", "Av5", "Av6", "Av7", "Av8"]
 
     @Published var addTypes: [String] = ["Top up", "Withdraw"]
     @Published var currentAddType: String = ""

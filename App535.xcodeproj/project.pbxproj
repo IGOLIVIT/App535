@@ -33,6 +33,9 @@
 		782943F22CA3166B007C6E2C /* DateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782943F12CA3166B007C6E2C /* DateConvert.swift */; };
 		782943F82CA324D6007C6E2C /* AllOper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782943F72CA324D6007C6E2C /* AllOper.swift */; };
 		782943FB2CA32878007C6E2C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782943FA2CA32878007C6E2C /* SettingsView.swift */; };
+		78BAAD3E2CBA62430017319E /* Detv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAD3D2CBA62430017319E /* Detv.swift */; };
+		78BAAD402CBA62560017319E /* Shei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAD3F2CBA62560017319E /* Shei.swift */; };
+		78BAAD422CBA62600017319E /* Wron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAD412CBA62600017319E /* Wron.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		782943F12CA3166B007C6E2C /* DateConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConvert.swift; sourceTree = "<group>"; };
 		782943F72CA324D6007C6E2C /* AllOper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOper.swift; sourceTree = "<group>"; };
 		782943FA2CA32878007C6E2C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		78BAAD3D2CBA62430017319E /* Detv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detv.swift; sourceTree = "<group>"; };
+		78BAAD3F2CBA62560017319E /* Shei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shei.swift; sourceTree = "<group>"; };
+		78BAAD412CBA62600017319E /* Wron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wron.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 				782943D82CA17278007C6E2C /* CoreDataStack.swift */,
 				782943DA2CA17297007C6E2C /* Array.swift */,
 				782943F12CA3166B007C6E2C /* DateConvert.swift */,
+				78BAAD3D2CBA62430017319E /* Detv.swift */,
+				78BAAD3F2CBA62560017319E /* Shei.swift */,
+				78BAAD412CBA62600017319E /* Wron.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -342,7 +351,10 @@
 				782943D12CA17234007C6E2C /* U1.swift in Sources */,
 				782943EA2CA2B1D6007C6E2C /* AddGoal.swift in Sources */,
 				782943C92CA17216007C6E2C /* CoreModel.xcdatamodeld in Sources */,
+				78BAAD3E2CBA62430017319E /* Detv.swift in Sources */,
+				78BAAD402CBA62560017319E /* Shei.swift in Sources */,
 				782943CD2CA1722A007C6E2C /* R1.swift in Sources */,
+				78BAAD422CBA62600017319E /* Wron.swift in Sources */,
 				782943E52CA1C22C007C6E2C /* AddProfile.swift in Sources */,
 				782943D32CA1723C007C6E2C /* Reviews.swift in Sources */,
 				782943D92CA17278007C6E2C /* CoreDataStack.swift in Sources */,
